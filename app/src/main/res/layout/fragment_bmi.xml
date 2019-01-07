@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingTop="46dp"
+    android:paddingLeft="16dp"
+    tools:context=".Bmi_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/height_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:layout_marginTop="6dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/height_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:ems="6"
+        android:hint="In Centimeters"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="16dp"
+        android:inputType="number|numberDecimal"
+        android:layout_below="@+id/height_text"/>
+    <TextView
+        android:id="@+id/weight_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/height_bmi"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/weight_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/weight_text"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_round"
+        android:ems="6"
+        android:hint="In kilograms"
+        android:layout_marginTop="17dp"
+        android:inputType="number|numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_bmi"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/weight_bmi"
+        android:background="@drawable/button_round"
+        android:text="@string/check"
+        android:textColor="@color/colorwhite" />
+    <TextView
+        android:id="@+id/bmi_result"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_bmi"
+        android:layout_marginTop="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    tools:context=".steps_setting">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How many steps you want to walk everyday"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/set_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/colorwhite">
+        <EditText
+            android:id="@+id/edit_step"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Steps"
+            android:inputType="number"
+            android:background="@drawable/edit_round"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/step_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/set_step"
+        android:textColor="@color/colorwhite"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

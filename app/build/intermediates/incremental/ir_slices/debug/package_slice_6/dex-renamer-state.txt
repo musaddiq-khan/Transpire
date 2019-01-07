@@ -1,0 +1,4 @@
+#Sat Dec 22 11:32:12 IST 2018
+base.0=C\:\\Users\\Junaid\\AndroidStudioProjects\\Transpire\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\40
+path.0=classes.dex
+renamed.0=classes.dex

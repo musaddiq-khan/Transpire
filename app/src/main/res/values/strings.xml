@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Transpire</string>
+    <string name="hello">Hello World</string>
+    <string name="sign_up">sign up</string>
+    <string name="sign_in">Login</string>
+    <string name="version">Version 1.0</string>
+    <string name="signup1">Sign Up with Email</string>
+    <string name="facebook">Continue with Facebook</string>
+    <string name="BMI">BMI CALCULATOR</string>
+    <string name="navigation_drawer_open">open navigation</string>
+    <string name="navigation_drawer_close">close navigation</string>
+    <string name="height">Height</string>
+    <string name="weight">weight</string>
+    <string name="check">calculate BMI</string>
+
+
+    <string name="very_severly_underweight">Very severly underweight</string>
+    <string name="severly_underweight">Severly underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_i">Obese class 1 (Moderetly Obese)</string>
+    <string name="obese_class_ii">Obese class 2(Severly Obese)</string>
+    <string name="obese_class_iii">Obese class 3(Very severly Obese)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

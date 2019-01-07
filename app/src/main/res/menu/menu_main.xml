@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:title="profile"
+            android:icon="@drawable/ic_person"/>
+        <item android:id="@+id/bmi"
+            android:icon="@drawable/bmi"
+            android:title="@string/BMI"/>
+
+        <item android:id="@+id/gym"
+            android:title="Weight Training"
+            android:icon="@drawable/gym"
+            />
+        <item android:id="@+id/yoga"
+            android:title="yoga"
+            android:icon="@drawable/yoga_logo"
+            />
+        <item android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings"
+            />
+
+
+    </group>
+    <group>
+        <item android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_exit"
+            />
+    </group>
+
+
+</menu>
